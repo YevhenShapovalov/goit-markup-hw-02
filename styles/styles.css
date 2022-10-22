@@ -1,0 +1,63 @@
+/* main text color #757575
+title text color #212121
+active #2196F3
+backround team #F5F4FA
+background color #2F303A
+logo #000000
+hero title logo #FFFFFF
+*/
+:root {
+    --main-text-color: #757575;
+    --title-text-color: #212121;
+    --active: #2196F3;
+    --backround-team: #F5F4FA;
+    --background-color: #2F303A;
+    --logo: #000000;
+    --hero-title-logo: #FFFFFF;
+}
+body {color: var(--main-text-color)}
+ul {list-style: none;}
+.page-header a {text-decoration: none;}
+/* logo */
+.logo {color: var(--logo);}
+.web {color: var(--active);}
+/* Navigation */
+.site-nav a {color: var(--title-text-color);}
+.site-nav a:hover,
+.site-nav a:focus {color: var(--active);}
+.site-nav .current {color: var(--active);}
+/* Contacts */
+.contacts a {color: var(--main-text-color);}
+.contacts a:hover,
+.contacts a:focus {color: #2196F3;}
+/* Hero */
+.hero {background-color: var(--background-color);}
+.hero-title {color: var(--hero-title-logo);}
+.button {background-color: var(--active);
+color: var(--hero-title-logo);}
+/* Наші особливості */
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;}
+/* all titles */
+.title {color: var(--title-text-color);}
+/*Чим ми займаємося  */
+
+/* Team */
+.team {background-color: var(--backround-team);}
+/* Footer */
+.footer {background-color: var(--background-color) ;}
+.footer a { text-decoration: none;
+font-style: normal;}
+.studio-footer {color: var(--hero-title-logo);}
+/* address */
+.address {color: var(--hero-title-logo);}
+.smooth {color: rgba(255, 255, 255, 0.6);}
