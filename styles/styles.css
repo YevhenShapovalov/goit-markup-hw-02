@@ -96,11 +96,12 @@ padding: 0;
 clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;}
-.features {
+.features h3 {
 font-size: 14px;
 line-height: 1.71;
 text-transform: uppercase;
 }
+
 /* all titles */
 .title {color: var(--title-text-color);
 font-weight: 700;
